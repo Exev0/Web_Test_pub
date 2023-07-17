@@ -7,14 +7,14 @@ JOBS = [
     'id': 1,
     'title': 'Chicken Farmer',
     'location': 'Ipswich',
-    'Salary': '£25600',
+    'Salary': '£254600',
   },
   
   {
     'id': 2,
     'title': 'chicken feeder',
     'location': 'Ipswich',
-    'Salary': '£15600',
+    'Salary': '£156000',
   }
 ]
 

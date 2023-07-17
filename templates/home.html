@@ -1,0 +1,53 @@
+<!DOCTYPEhtml>
+<html> 
+  <head>
+    <title>Garys Webpage</title>
+    <style>
+      h1 {
+        font-size: 40px;
+        font-family: rosybrown;
+        font-weight: normal;
+        color: rgb(100,100,100);
+        text-align: center;
+      }
+
+      #banner{
+        width: 100%;
+        object-fit
+      }
+    </style>
+  </head>
+  <body>
+   <h1>Hello, you will learn about  python</h1>
+    <img id="banner"       src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Male_and_female_chicken_sitting_together.jpg/800px-Male_and_female_chicken_sitting_together.jpg"
+      height="240">
+    <h2>About my site</h2>
+    <p>
+BRAND NEW CONTRACT OPPORTUNITY AVAILABLE WITH A CLIENT IN LONDON FOR A PYTHON DEVELOPER WITH DV CLEARANCE
+• Contract opportunity for a Python Developer
+• Central London based client - once per month in the office
+• DV clearance is essential
+• Experience working with the UK Government
+• 6 month rolling contract
+• Day rate up to £750pay/day
+• To apply please call 0203 854 0120 or email jack.bennett @searchability.com
+    </p>
+    <h2>
+      Open Positions 
+    </h2>
+    <div  class="border-bottom">
+     
+      {% for job in jobs%}
+      <div class="border-bottom:15px"> 
+        {{job['title']}}
+        {{job['Salary']}}
+      </div>
+      {% endfor %}  
+      <button  type='button' class='btn  btn-outline-primary'>Apply</button>
+    </div>
+
+    <Button>Press me </Button>
+  </body>
+</html>
+
+
